@@ -72,6 +72,8 @@ public class AdministrationServiceImpl extends BaseOpenmrsService implements Adm
 	
 	/**
 	 * An always up-to-date collection of the allowed locales.
+	 *
+	 *
 	 */
 	private GlobalLocaleList globalLocaleList;
 	

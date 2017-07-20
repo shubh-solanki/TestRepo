@@ -15,6 +15,8 @@ import org.openmrs.api.context.Context;
  * Represents often fatal errors that occur within the API infrastructure. All service methods
  * should be marked as possibly throwing this exception. The preferred methods to use in this
  * exception is the {@link #APIException(String, Throwable)} or the {@link #APIException(String)}
+ *
+ *
  */
 public class APIException extends RuntimeException {
 	
